@@ -6,3 +6,15 @@
 	width: 100vh;
 	z-index: 999;
 }
+
+.canvas {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	width: 100vh;
+	height: 100vh;
+	background-color: #000000;
+	overflow: hidden;
+}
