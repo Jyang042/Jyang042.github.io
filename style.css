@@ -18,3 +18,12 @@
 	background-color: #000000;
 	overflow: hidden;
 }
+
+.anim-background {
+	height: 100%;
+	width: 100%;
+}
+
+.header {
+	align-items: center;
+}
