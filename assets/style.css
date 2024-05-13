@@ -38,6 +38,46 @@
 	align-items: center;
 }
 
+.navigation-bar {
+	position: sticky;
+	top: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	height: 6rem;
+	border-bottom: 1px solid #1a1a1a;
+	background-color: rgba(40,40,40,0.95);
+	backdrop-filter: blur(8px);
+	box-shadow:0 4px 4px rgba(0,0,0,0.3);
+	z-index: 999999999;
+}
+
+.navigation {
+	display: flex;
+	margin-right: 10rem;
+	font-size: 2rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.navigation-item {
+	text-decoration: none;
+	color: #0E2431;
+	font-size: 18px;
+	font-weight: 500;
+	padding: 10px 4px;
+	transition: all 0.3s ease;
+}
+
+.navigation-item li a:hover{
+	color: #4070f4;
+}
+
+.navigation-item li a{
+	color: #fff;
+	transition: all 0.4s ease;
+}
+
 .main-body {
 	height: 100vh;
 	position: fixed;
