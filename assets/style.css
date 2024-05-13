@@ -27,6 +27,14 @@
 	margin: 0;
 }
 
-.header {
+.header-line_1 {
+	font-size: 14px;
+	background-color:rgba(26,26,26,0.25);
+	align-items: center;
+}
+
+.header-line_2 {
+	font-size: 14px;
+	background-color:rgba(26,26,26,0.25);
 	align-items: center;
 }
