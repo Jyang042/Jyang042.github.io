@@ -25,6 +25,22 @@
     overflow: hidden;
 }
 
+.header {
+	position: relative;
+	align-self: center;
+	justify-self: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	line-height: normal;
+	width: fit-content;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	color: #fafafa;
+	font-weight: 300;
+	z-index: 999;
+}
 
 .header-line_1 {
 	font-size: 14px;
