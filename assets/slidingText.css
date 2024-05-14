@@ -5,6 +5,7 @@
 body {
   height: 100vh;
   display: flex;
+  font-family: "Times New Roman", sans-serif;
   justify-content: center;
   align-items: center;
   flex-direction: column;

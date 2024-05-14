@@ -43,15 +43,21 @@
 }
 
 .header-line_1 {
-	font-size: 14px;
+	font-size: 6rem;
 	background-color:rgba(26,26,26,0.25);
 	align-items: center;
+	animation-duration: 1.4s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	animation-name: moveInLeft;
 }
 
 .header-line_2 {
 	font-size: 14px;
 	background-color:rgba(26,26,26,0.25);
 	align-items: center;
+	animation-duration: 1.4s;
+	animation-timing-function: cubic-bezier(0.21, 1.11, 0.81, 0.99);
+	animation-name: moveInRight;
 }
 
 .navigation-bar {
