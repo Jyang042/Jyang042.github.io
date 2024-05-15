@@ -164,9 +164,13 @@
 }
 
 .socials-github {
-	margin-right: 1rem;
 	height: 36px;
-	width: 35px;
+	width: 36px;
+}
+
+.socials-github img {
+	width: 100%;
+	height: auto;
 }
 
 .copyright {
