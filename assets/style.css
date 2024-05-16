@@ -161,6 +161,11 @@
 }
 
 .project-image {
+	height: 780;
+	width: 460px;
+}
+
+.project-image img {
 	width: 85%;
 	position: relative;
 }
