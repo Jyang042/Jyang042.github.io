@@ -141,14 +141,34 @@
 	margin-bottom: 14rem;
 	justify-content: flex-start;
 }
-.project-left{
+.project-left {
 	align-self: flex-start;
 	margin-left: 22rem;
 }
 
-.project-right{
+.project-right {
 	align-self: flex-end;
 	margin-right: 22rem;
+}
+
+.project-image-container {
+	position: relative;
+    height: 70rem;
+    width: 100rem;
+    background-color: #3216bb;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.project-image {
+	width: 85%;
+	position: relative;
+}
+
+.box {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
 }
 .contact {
 	position: relative;
