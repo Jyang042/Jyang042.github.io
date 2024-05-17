@@ -325,6 +325,16 @@ a {
     transform: scale(1.1);
 }
 
+.socials-linkedin img {
+	width: 36px;
+	heigh: 36px;
+	transition: transform 0.2s ease;
+}
+
+.sociales-linkedin img:hover {
+	transform: scale(1.1);
+}
+
 .footer p {
     font-size: 0.875rem;
     margin: 0;
