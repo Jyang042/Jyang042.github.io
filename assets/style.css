@@ -170,7 +170,6 @@ a {
     background-color: #f9f9f9;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 2rem;
 }
 
@@ -196,7 +195,7 @@ a {
 
 .project-image-container {
     width: 100%;
-    height: 250px;
+    height: 550px;
     overflow: hidden;
     border-radius: 10px;
     margin-bottom: 10px;
