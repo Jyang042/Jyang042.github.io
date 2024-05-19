@@ -184,17 +184,20 @@ a {
     padding: 0 20px;
 }
 
+/* Skill Content */
 .skills {
-	display:block;
-	justify-content: center;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
+	overflow: hidden;
+	width: 100%;
+	max-width: 1000px;
 }
 
 .skills-row {
 	display: flex;
-	flex-direction: row;
+	flex-wrap: nowrap;
 	justify-content: center;
-	width: 100%
 }
 
 .skills-row:not(:last-child) {
@@ -241,11 +244,11 @@ a {
 }
 
 .skills-carousel--row1 {
-	animation: scroll-left 20s linear infinite;
+	animation: scroll-left 100s linear infinite;
 }
 
 .skills-carousel--row2 {
-	animation: scroll-right 20s linear infinite;
+	animation: scroll-right 100s linear infinite;
 }
 
 /* Projects Section */
