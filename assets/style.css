@@ -447,7 +447,7 @@ a {
 	transition: transform 0.2s ease;
 }
 
-.sociales-linkedin img:hover {
+.socials-linkedin img:hover {
 	transform: scale(1.1);
 }
 
